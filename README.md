@@ -94,3 +94,14 @@ https://www.youtube.com/watch?v=DtBZH0gRn6Q&list=PL8Zav_rb274kCgLrPy_NgxawKaB8_E
 개발: Tutorial MobileVR_05 를 참고. 오디오를 각 object에 포함. 플레이어가 먹이와 부딪히면 먹이 먹는 오디오, 플레이어가 아이템과 부딪힐 때 발생하는 오디오, 플레이어의 tag가 attack 일 때 적과 부딪힐 때 발생하는 오디오를 check script의 OnTriggerEnter함수에 각 tag에 맞는 물체와 충돌할 때에 발생하게 구현. 게임 오버 오디오는 Update함수에 플레이어 tag가 finish일 때 발생하도록 구현. 게임 시작오디오는 audio source의 play on awake를 체크하여 게임 시작할 때에 한번만 들리도록 함. 
 문제점: X
 
+### 3. 시연 영상 및 apk 파일, 소스 코드 파일
+
+https://drive.google.com/file/d/1QeyqnvrjOjACIHoBNbuudfHs-Qo9ROfN/view?usp=sharing
+(시연영상)
+
+https://drive.google.com/file/d/1iE88D0NNGS4UjYrt_EmVl4PFgkGXUzE3/view?usp=sharing
+(apk 파일)
+
+https://drive.google.com/file/d/1BpwWrK4XuHOZAFiUeD17x9AX4fYMDskr/view?usp=sharing
+(소스 코드)
+
