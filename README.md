@@ -1,8 +1,8 @@
 # 2020-2-VRstudio
 
-#VR PACMAN 개발노트
+# VR PACMAN 개발노트
 
-1. 게임 요소 디자인.
+# 1. 게임 요소 디자인.
 팩맨은 간결한 디자인을 갖는 모델들을 사용하므로 외부 어셋을 활용하지 않고 직접 만들어서 구현.
 
 1 - 1. 맵 제작
@@ -26,8 +26,8 @@
 ![image](https://user-images.githubusercontent.com/77597604/203217942-c43c2803-c668-49a0-81a1-2f7418de0f82.png)
 
 ![image](https://user-images.githubusercontent.com/77597604/203218006-d4b93586-8eb2-4ca9-89bc-3983ac2ef235.png)
-
 (시도 흔적)
+
 https://www.youtube.com/watch?v=DtBZH0gRn6Q&list=PL8Zav_rb274kCgLrPy_NgxawKaB8_Ebgi&index=4
 
 기술적 해결: 위에 기재한 마야 강의 유튜브 영상을 보며 이를 통해 제작. 
