@@ -1,8 +1,8 @@
 # 2020-2-VRstudio
 
-# VR PACMAN 개발노트
+## VR PACMAN 개발노트
 
-# 1. 게임 요소 디자인.
+### 1. 게임 요소 디자인.
 팩맨은 간결한 디자인을 갖는 모델들을 사용하므로 외부 어셋을 활용하지 않고 직접 만들어서 구현.
 
 1 - 1. 맵 제작
@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=DtBZH0gRn6Q&list=PL8Zav_rb274kCgLrPy_NgxawKaB8_E
 
 기술적 해결: 유니티에서 Sphere 생성, 각각에 맞는 Material 색상 생성하고 적용. 아이템에는 Standard Asset - Projectors Prefabs 의 BlobLightProjector 을 입혀 빛이 나는 효과 입힘.
 
-# 2. 게임 개발.
+### 2. 게임 개발.
 2 - 1. 카메라 (플레이어) 움직임 구현.
 개발: 강의노트 Tutorial MobileVR_05 에 기재된 카메라가 보는 방향으로 움직이는 Script를 참고.  lookwalk script를 생성하여 카메라에 넣고 카메라 이동 구현. 카메라 Rotation Y를 조금 변화하는 애니메이션을 만들어 카메라에 적용. (플레이어 입장에서 걷는 것처럼 보이는 효과를 주기 위함)
 문제점: 애니메이션을 카메라에 적용하니 카메라가 보는 방향으로 움직이지 않게됨. 카메라의 Rotation에 직접적인 변화를 주는 애니메이션으로 인해 생긴 에러.
